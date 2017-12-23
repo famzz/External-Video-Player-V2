@@ -67,3 +67,8 @@ fabric.properties
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/jetbrains
+app/.idea/app.iml
+app/.idea/misc.xml
+app/.idea/workspace.xml
+app/.idea/vcs.xml
+app/.idea/modules.xml
