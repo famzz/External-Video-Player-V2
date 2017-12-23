@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "External Video Player V2",
+  "version": "0.0.1",
+
+  "description": "Play videos on a web page externally.",
+
+  "browser_action": {
+	"default_icon": "icons/video-player-7.png",
+    "default_title": "Play videos"
+  },
+  
+  "background": {
+    "scripts": ["play.js"]
+	},
+
+  "permissions": [
+	"<all_urls>",
+	"activeTab"
+  ]
+
+}
